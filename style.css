@@ -1,0 +1,145 @@
+:root {
+    --primary-color: #ffcd9e;
+    --black: #000;
+    --black-text: #282828;
+    --black-shade: #484848;
+    --white-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Inter';
+}
+
+main {
+    height: 70%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: content;
+}
+
+.d-flex {
+    display: flex;
+}
+.w-50 {
+    width: 50%;
+}
+.h-100 {
+    height: 100%;
+}
+
+.hero-section {
+    background-color: var(--primary-color);
+    padding: 10px 25px;
+}
+
+.left-text {
+    width:50%;
+    padding-left: 170px;
+    padding-top: 60px;
+}
+
+.left-text h1 {
+    font-size: 38px;
+    font-weight: 700;
+    width: 580px;
+    color: var(--black-text);
+}
+
+.left-text p {
+    font-size: 18px;
+    font-weight: 550;
+    color: var(--black-shade);
+    width: 82%;
+    margin-top: 21px;
+    
+}
+
+.left-text h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--black-text);
+    margin-top: 25px;
+    width: 220px;
+}
+
+.left-text form {
+    margin-top: 25px;
+    gap: 10px;
+}
+
+.left-text input {
+    border: 3px solid var(--black);
+    border-radius: 8px;
+    width: 410px;
+    height: 45px;
+    padding: 15px;
+    outline: none;
+}
+
+.left-text button {
+    border-radius: 8px;
+    border: none;
+    width: 150px;
+    height: 45px;
+    color: var(--white-color);
+    background-color: var(--black-text);
+}
+
+.left-text h6 {
+    font-size: 12px;
+    font-weight: 650;
+    color: var(--black-text);
+    margin-top: 22px;
+    width: 69%;
+    text-align: center;
+    color: var(--white-color);
+
+}
+
+footer {
+    height: 30%;
+    background-color: var(--black-text);
+    color: var(--white-color);
+    padding-top: 20px;
+}
+
+.additionals {
+    padding-left: 325px;
+}
+
+.additionals p {
+    width: 180px;
+    margin-top: 10px;
+}
+
+.social-img {
+    justify-content: flex-end;
+    margin-top: 8px;
+    width: 180px;
+    height: 20px;
+    gap: 2px;
+}
+
+.socials {
+    padding-left: 300px;
+}
+
+.socials p {
+    width: 180px;
+    margin-top: 10px;
+    text-align: right;
+}
+
+.socials .email {
+    margin-top: 30px;
+}
