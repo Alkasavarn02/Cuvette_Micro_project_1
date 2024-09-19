@@ -176,11 +176,11 @@ img {
         padding-top: 20px;
     }
     .left .leftInnerContainer > h1 {
-        font-size: 31px;
+        font-size: 26px;
         line-height: 40px;
     }
     .left .leftInnerContainer > p {
-        font-size: 18px;
+        font-size: 15px;
         line-height: 27px;
     }
     .left .leftInnerContainer > h3 {
@@ -207,6 +207,6 @@ img {
     .footer {
         font-size: 13px;
         font-weight: 400;
-        line-height: 22px;
+        line-height: 0px;
     }
 }
