@@ -113,7 +113,9 @@ img {
 
 .footer {
     width: 100vw;
-    min-height: calc(100vh - 475px);
+    max-height: calc(100vh - 475px);
+    height: auto;
+    padding: 10px;
     background-color: var(--black-text);
     color: var(--white-color);
     font-size: 20px;
